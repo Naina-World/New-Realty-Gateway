@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contain your database URI and password)
+.env
+.env.*
+!.env.example
+
+# Build output
+client/dist/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Vite cache
+.vite/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
